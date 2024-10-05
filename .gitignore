@@ -1,0 +1,13 @@
+*.logs
+*.pycache
+*.pyc
+*.json
+*.bru
+*.class
+*.vscode
+*.dll
+JDK/
+.exe
+C_programming/
+*.md
+
