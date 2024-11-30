@@ -9,5 +9,6 @@
 JDK/
 .exe
 C_programming/
+venv/
 *.md
 
