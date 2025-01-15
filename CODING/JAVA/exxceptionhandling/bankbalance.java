@@ -4,7 +4,7 @@ class Myexception extends Exception{
         super(message);
     }
 }
-public class bankbalance {
+public class bankbalance{
     String Name;
     int accno;
     double balance;
