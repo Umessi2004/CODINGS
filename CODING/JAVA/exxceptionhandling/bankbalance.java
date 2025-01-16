@@ -37,6 +37,7 @@ public class bankbalance{
         System.out.println("accno: "+accno);
         System.out.println("Name: "+Name);
     }
+    @SuppressWarnings("ConvertToTryWithResources")//with this the error warning is supressed
     public static void main(String[] args) {
         String n;
         int accn;
@@ -60,6 +61,7 @@ public class bankbalance{
             canarabank.withdraw(b);
         }
         canarabank.printbalance();
+        sc.close();
     }
 }
 
