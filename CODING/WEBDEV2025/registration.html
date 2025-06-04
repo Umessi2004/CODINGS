@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    .clickbutton {
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    button:hover {
+        background-color: rgb(81, 75, 75);
+    }
+
+    table,
+    td {
+        padding: 10px 2px;
+        text-align: left;
+    }
+
+    td {
+        width: 350px;
+
+    }
+
+    .form-box {
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        padding: 10px 24px;
+        max-width: 600px;
+        margin: 0px auto;
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+</style>
+
+<body>
+    <h1
+        style="text-align: center; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        Registration Form</h1>
+    <div class="form-box">
+        <form method="post">
+            <table>
+                <!-- first name -->
+                <tr>
+                    <td>first name</td>
+                    <td><input type="text" name="first_name" required pattern="[A-Za-z ]+"></td>
+                </tr>
+                <!-- last name -->
+                <tr>
+                    <td>last name</td>
+                    <td><input type="text" name="last name" required pattern="[A-Za-z ]+"></td>
+                </tr>
+                <!-- DOB -->
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" name="date of Birth" required></td>
+                </tr>
+                <!-- phone no. -->
+                <tr>
+                    <td>Phone No.</td>
+                    <td><input type="number" name="phone no." required></td>
+                </tr>
+                <!-- college name -->
+                <tr>
+                    <td>College Name</td>
+                    <td><input type="text" name="first_name" required></td>
+                </tr>
+                <!-- branch -->
+                <tr>
+                    <td>Branch</td>
+                    <td><input type=""" name=" first_name" required></td>
+                </tr>
+                <!-- gender -->
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="Gender" id="male" value="male">Male
+                        <input type="radio" name="Gender" id="male" value="male">Female
+                    </td>
+                </tr>
+                <!-- course -->
+                <tr>
+                    <td>course</td>
+                    <td>
+                        <select name="course">
+                            <OPTION value="Mern stack">Mern Stack</OPTION>
+                            <OPTION VALUE="DevOps">DevOps</OPTION>
+                            <OPTION VALUE="Data Science">Data Science</OPTION>
+                        </select>
+                    </td>
+                </tr>
+                <!-- location -->
+                <tr>
+                    <td>location</td>
+                    <td><input type="text" name="location" required></td>
+                </tr>
+                <!-- email -->
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="email" name="E-mail" required></td>
+                </tr>
+                <!-- password -->
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <!-- check box -->
+                <tr>
+                    <td colspan="2""><input type="checkbox" required>I accept the terms and
+                        condition</td>
+                </tr>
+                <!-- submit and reset buttons -->
+                </tr>
+                <td><button type="submit" class="clickbutton"
+                        style="background-color: rgb(9, 211, 90);">Register</button></td>
+                <td><button type="reset" class="clickbutton" style="background-color: rgb(210, 48, 24);">Reset</button>
+                </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
